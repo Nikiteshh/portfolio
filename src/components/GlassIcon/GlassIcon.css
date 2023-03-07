@@ -1,0 +1,22 @@
+.icon-wrapper {
+  height: 15%;
+  width: 80px;
+}
+.glass-icon-container {
+  background-color: transparent;
+  height: 80px;
+  width: 60px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+
+  transform: skewY(15deg);
+  transition: all 0.5s;
+}
+
+.glass-icon-container:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  transform: skewY(0deg);
+}
+
+.icon-wrapper:hover {
+}

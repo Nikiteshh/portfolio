@@ -1,0 +1,55 @@
+.glass-container {
+  position: absolute;
+  background-color: transparent;
+  border-radius: 20px;
+  top: 50%;
+  left: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(20px);
+  animation-name: glass-window-zoom;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+
+  width: 90vw;
+  height: 84vh;
+  margin-left: -45vw;
+  margin-top: -42vh;
+}
+
+.glass-close {
+  background-color: black;
+  position: absolute;
+  border: none;
+  color: white;
+  /* padding: 1rem; */
+  width: 40px;
+  height: 40px;
+  border-radius: 0 18px 0 18px;
+  right: 0;
+  top: 0;
+}
+.glass-close:active {
+  background-color: rgb(42, 42, 42);
+}
+
+section::-webkit-scrollbar:hover {
+  width: 1em;
+}
+
+@keyframes glass-window-zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@media (min-width: 768px) {
+  .glass-container {
+    width: 66vw;
+    height: 80vh;
+    margin-left: -33vw;
+    margin-top: -40vh;
+  }
+}
