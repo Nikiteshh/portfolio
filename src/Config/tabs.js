@@ -1,4 +1,5 @@
 import About from "../components/About";
+import Contact from "../components/Contact";
 
 const tabs = [
   {
@@ -14,7 +15,7 @@ const tabs = [
   {
     title: "Contact",
     icon: "C",
-    content: "contact-contact-contact",
+    content: <Contact />,
   },
   {
     title: "Resume",
