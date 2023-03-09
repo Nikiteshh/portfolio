@@ -1,8 +1,10 @@
+import About from "../components/About";
+
 const tabs = [
   {
     title: "About",
     icon: "A",
-    content: "about-about-about",
+    content: <About />,
   },
   {
     title: "Projects",
