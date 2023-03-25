@@ -10,7 +10,7 @@ const tabs = [
   {
     title: "Projects",
     icon: "P",
-    content: "project-project-project",
+    content: "Coming Soon...",
   },
   {
     title: "Contact",
@@ -20,7 +20,7 @@ const tabs = [
   {
     title: "Resume",
     icon: "R",
-    content: "resume-resume-resume",
+    content: "Coming Soon...",
   },
 ];
 
